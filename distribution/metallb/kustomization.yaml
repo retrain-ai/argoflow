@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: metallb-system
 
 resources:
-  - github.com/metallb/metallb/manifests?ref=99469a412510da616538825c7a5ecb1ff0dbc59d # tag=v0.10.2
+  - github.com/metallb/metallb/manifests?ref=ef49019fb067ba4bf8110c53a25f45ef8c934fa0 # tag=v0.10.3
   - configmap.yaml
 
 images:
